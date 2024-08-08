@@ -1,0 +1,28 @@
+/*estilos para o corpo da pagina*/
+body {
+    /*define a fonte para o texto do corpo */
+    font-family: Arial, sans-serif;
+    /*centraliza o conteudo horizontalmante na pagina*/
+    text-align: center;
+    /*define uma imagen de fundo ".jpg" */
+    background-image: url("plano de fundo.jpg");
+    /*ajusta o tamanho da pagina para descobri toda a area do fundo */
+    background-size: cover;
+    /*possiciona a imagem centraliza da no fundo*/
+    background-position: center;
+    /* oculta as barras de rolagem caso a imagem seja maior que a tela*/
+    overflow: hidden;
+}
+
+input {
+    padding: 13px;
+    margin: hidden;
+}
+
+button {
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 13px;
+    transition: background-color 0.3s, color 0.3s;
+}
